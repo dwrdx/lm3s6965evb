@@ -1,4 +1,9 @@
 
+all:
+	# default build configured in .cargo/config.toml file
+	cargo build
+
+
 build:
 	cargo build --target thumbv7m-none-eabi
 
